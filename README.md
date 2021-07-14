@@ -8,13 +8,10 @@ Based on Vue3/Vite2/TailWindCss
 
 ## 环境变量
 
-- NODE_ENV: production
-- BASE_URL in vue.config.js
-- ENTRY in vue.config.js
-- VUE_APP_ROUTE_BASE
-- VUE_APP_ROUTE_MODE: hash or history
-- VUE_APP_BASE_URL: 后端请求的base url
-- VUE_APP_TEST_BASE_URL: dev环境下的后端请求的base url
+- BASE_URL: 当前环境的request地址
+- VITE_APP_NAME
+- VITE_ROUTE_MODE: hash or history
+- VITE_ICON_FONT_URL: iconfont的地址
 
 # TODO
 
@@ -23,3 +20,5 @@ Based on Vue3/Vite2/TailWindCss
 - 测试dialog-drag
 - tailwind在webstorm vue中的代码提示
 - router interceptor
+- request
+- tailwind中vite还没支持postcss8？ https://www.tailwindcss.cn/docs/guides/vue-3-vite
