@@ -62,9 +62,9 @@
 import { ref,onMounted } from 'vue';
 import {storePageMenu} from "../../lib/router";
 import {useRouter} from "vue-router";
-const router = useRouter()
 const selectedKeys = ref([])
 const collapsed = ref(false)
+const router = useRouter()
 
 function routeTo(r){
   router.push({name: r.key})

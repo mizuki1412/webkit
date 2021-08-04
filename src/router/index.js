@@ -20,7 +20,8 @@ export const routes = [
         component: () => import('../views/page1/page1.vue'),
         meta:{
           menuTitle: "子页面1",
-          icon: 'icon-home'
+          icon: 'icon-home',
+          authDisable: true
         }
       },
       {
@@ -29,7 +30,8 @@ export const routes = [
         component: () => import('../views/page2/page2.vue'),
         meta:{
           menuTitle: "子页面2",
-          icon: 'icon-home'
+          icon: 'icon-home',
+          authDisable: true
         },
       },
       {
@@ -38,7 +40,8 @@ export const routes = [
         component: () => import('../views/page2/page3.vue'),
         meta:{
           menuTitle: "子页面2p1",
-          menuBelong: "page2"
+          menuBelong: "page2",
+          authDisable: true
         },
       },
       {
@@ -47,7 +50,8 @@ export const routes = [
         component: () => import('../views/page2/page2.vue'),
         meta:{
           menuTitle: "子页面2",
-          icon: 'icon-home'
+          icon: 'icon-home',
+          authDisable: true
         },
       },
       {
@@ -56,7 +60,8 @@ export const routes = [
         component: () => import('../views/page2/page2.vue'),
         meta:{
           menuTitle: "子页面2",
-          icon: 'icon-home'
+          icon: 'icon-home',
+          authDisable: true
         },
       },
       {
@@ -65,7 +70,8 @@ export const routes = [
         component: () => import('../views/page2/page2.vue'),
         meta:{
           menuTitle: "子页面2",
-          icon: 'icon-home'
+          icon: 'icon-home',
+          authDisable: true
         },
       },
     ]

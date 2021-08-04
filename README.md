@@ -8,10 +8,11 @@ Based on Vue3/Vite2/TailWindCss
 
 ## 环境变量
 
-- BASE_URL: 当前环境的request地址
+- BASE_URL:
 - VITE_APP_NAME
 - VITE_ROUTE_MODE: hash or history
 - VITE_ICON_FONT_URL: iconfont的地址
+- VITE_REQUEST_BASE_URL: axios的 base url
 
 # TODO
 
@@ -19,6 +20,5 @@ Based on Vue3/Vite2/TailWindCss
 - ant-design的按需加载
 - 测试dialog-drag
 - tailwind在webstorm vue中的代码提示
-- router interceptor
 - request
 - tailwind中vite还没支持postcss8？ https://www.tailwindcss.cn/docs/guides/vue-3-vite
