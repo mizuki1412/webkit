@@ -1,5 +1,6 @@
 {
   "version": "0.1.0",
+  "name": "webkit",
   "scripts": {
     "dev": "vite --mode dev",
     "build": "vite build --mode pro",
