@@ -8,9 +8,9 @@ import {directiveDialogDrag} from "../lib/directive/dialog-drag";
 directiveDialogDrag(app)
 
 // plugins组件
-import {pluginEcharts} from "./plugin/echarts";
+import {pluginEcharts} from "../lib/plugin/echarts";
 pluginEcharts(app)
-import {pluginAnt, pluginAntIconFont} from "./plugin/ant";
+import {pluginAnt, pluginAntIconFont} from "../lib/plugin/ant";
 pluginAnt(app)
 pluginAntIconFont(app)
 // 全局注册lib组件

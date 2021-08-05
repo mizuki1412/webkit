@@ -22,3 +22,4 @@ Based on Vue3/Vite2/TailWindCss
 - tailwind在webstorm vue中的代码提示
 - request
 - tailwind中vite还没支持postcss8？ https://www.tailwindcss.cn/docs/guides/vue-3-vite
+- components和service适量迁移
