@@ -4,8 +4,6 @@ The Next of web-toolkit.
 
 Based on Vue3/Vite2/TailWindCss
 
-## 主要内容
-
 ## 环境变量
 
 - BASE_URL:
@@ -14,12 +12,14 @@ Based on Vue3/Vite2/TailWindCss
 - VITE_ICON_FONT_URL: iconfont的地址
 - VITE_REQUEST_BASE_URL: axios的 base url
 
+# components
+
+
+# service
+
+- confirm：确认框组件
+- message：消息提示组件，包括message和modal形式。
+
 # TODO
 
-- ant-design的loading封装
 - ant-design的按需加载
-- 测试dialog-drag
-- tailwind在webstorm vue中的代码提示
-- request
-- tailwind中vite还没支持postcss8？ https://www.tailwindcss.cn/docs/guides/vue-3-vite
-- components和service适量迁移
