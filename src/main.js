@@ -13,8 +13,10 @@ pluginAntIconFont(app)
 import {ComponentName} from "../lib/components";
 import kitEmpty from '../lib/components/kit-empty.vue'
 import kitModal from '../lib/components/kit-modal.vue'
+// import kitTable from '../lib/components/kit-table.vue'
 app.component(ComponentName.Empty, kitEmpty)
 app.component(ComponentName.Modal, kitModal)
+// app.component(ComponentName.Table, kitTable)
 
 // router
 import {useRouter} from "../lib/router";
