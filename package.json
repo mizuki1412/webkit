@@ -1,31 +1,34 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.3",
   "name": "webkit1412",
+  "author": "mizuki1412",
+  "license": "MIT",
+  "repository": "https://github.com/mizuki1412/webkit",
   "scripts": {
     "dev": "vite --mode dev",
     "build": "vite build --mode pro",
     "serve": "vite preview",
-    "up": "yarn upgrade-interactive --latest"
+    "update-dep": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
     "ant-design-vue": "~2.2.1",
-    "axios": "~0.21.1",
-    "echarts": "~5.2.0",
+    "axios": "~0.21.4",
+    "echarts": "~5.2.1",
     "lodash": "~4.17.21",
     "nprogress": "^0.2.0",
     "qs": "~6.10.1",
-    "socket.io-client": "~4.1.3",
+    "socket.io-client": "~4.2.0",
     "vant": "~3.1.5",
-    "vue": "~3.2.8",
+    "vue": "~3.2.13",
     "vue-echarts": "~6.0.0",
     "vue-router": "~4.0.11"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.4.0",
-    "@vue/compiler-sfc": "^3.2.4",
+    "@vitejs/plugin-vue": "^1.9.0",
+    "@vue/compiler-sfc": "^3.2.13",
     "autoprefixer": "^10.3.2",
     "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.9",
-    "vite": "^2.5.0"
+    "tailwindcss": "^2.2.15",
+    "vite": "^2.5.10"
   }
 }

@@ -22,6 +22,8 @@
   import {UserOutlined} from "@ant-design/icons-vue";
   import {confirm} from "../../../lib/service/confirm";
   import {errorMessage} from "../../../lib/service/message";
+  import {sleep} from "../../../lib/utils/logic";
+  import {useLoading} from "../../../lib/service/loading";
   // const vDrag = {
   //   mounted(el) {
   //     console.log(el)
@@ -39,7 +41,8 @@
     console.log(13)
   }
 
-  onMounted(()=>{
+  onMounted(useLoading(loading,async ()=>{
     console.log('mounted page1')
-  })
+    await sleep(3000)
+  }))
 </script>
