@@ -1,7 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import './index.css'
+import {configKitInit} from "../lib/store/configkit";
 const app = createApp(App)
+configKitInit(import.meta.env)
 
 // plugins组件
 import {pluginEcharts} from "../lib/plugin/echarts";
@@ -22,6 +24,7 @@ app.component(ComponentName.Modal, kitModal)
 import {useRouter} from "../lib/router";
 import {routes} from "./router";
 import {routeBaseAfter, routeBaseBefore} from "../lib/router/intercepter";
+
 const router = useRouter(app, routes)
 router.beforeEach((to,from,next)=>{
   routeBaseBefore(to,from,next)
