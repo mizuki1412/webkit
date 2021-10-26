@@ -66,11 +66,6 @@
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.10.2.tgz#0798c03351f0dea1a5a4cabddf26a55a7cbee590"
   integrity sha512-IXf3XA7+XyN7CP9gGh/XB0UxVMlvARGEgGXLubFICsUMGz6Q+DU+i4gGlpOxTjKvXjkJDJC8YdqdKkDj9qZHEQ==
 
-"@popperjs/core@^2.9.2":
-  version "2.9.3"
-  resolved "https://registry.nlark.com/@popperjs/core/download/@popperjs/core-2.9.3.tgz?cache=0&sync_timestamp=1628004480078&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40popperjs%2Fcore%2Fdownload%2F%40popperjs%2Fcore-2.9.3.tgz#8b68da1ebd7fc603999cf6ebee34a4899a14b88e"
-  integrity sha1-i2jaHr1/xgOZnPbr7jSkiZoUuI4=
-
 "@rollup/pluginutils@^4.1.1":
   version "4.1.1"
   resolved "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.1.1.tgz#1d4da86dd4eded15656a57d933fda2b9a08d47ec"
@@ -93,28 +88,6 @@
   version "2.1.0"
   resolved "https://registry.npmjs.org/@types/throttle-debounce/-/throttle-debounce-2.1.0.tgz#1c3df624bfc4b62f992d3012b84c56d41eab3776"
   integrity sha512-5eQEtSCoESnh2FsiLTxE121IiE60hnMqcb435fShf4bpLRjEu1Eoekht23y6zXS9Ts3l+Szu3TARnTsA0GkOkQ==
-
-"@vant/icons@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.nlark.com/@vant/icons/download/@vant/icons-1.7.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vant%2Ficons%2Fdownload%2F%40vant%2Ficons-1.7.0.tgz#02d427532a8142c35db159da9c364fe6890c3ac9"
-  integrity sha1-AtQnUyqBQsNdsVnanDZP5okMOsk=
-
-"@vant/lazyload@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.nlark.com/@vant/lazyload/download/@vant/lazyload-1.2.0.tgz?cache=0&sync_timestamp=1620007499934&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vant%2Flazyload%2Fdownload%2F%40vant%2Flazyload-1.2.0.tgz#62e9779bd7844ad8f71c2ca2bf852e6147c7a86d"
-  integrity sha1-Yul3m9eEStj3HCyiv4UuYUfHqG0=
-
-"@vant/popperjs@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/@vant/popperjs/download/@vant/popperjs-1.1.0.tgz?cache=0&sync_timestamp=1617713172143&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vant%2Fpopperjs%2Fdownload%2F%40vant%2Fpopperjs-1.1.0.tgz#b4edee5bbfa6fb18705986e313d4fd5f17942a0f"
-  integrity sha1-tO3uW7+m+xhwWYbjE9T9XxeUKg8=
-  dependencies:
-    "@popperjs/core" "^2.9.2"
-
-"@vant/use@^1.2.2":
-  version "1.3.0"
-  resolved "https://registry.nlark.com/@vant/use/download/@vant/use-1.3.0.tgz#b7d461c00078f7501ff7678771f1431fbf747b42"
-  integrity sha1-t9RhwAB491Af92eHcfFDH790e0I=
 
 "@vitejs/plugin-vue@^1.9.3":
   version "1.9.3"
@@ -352,10 +325,10 @@ autoprefixer@^10.3.7:
     picocolors "^0.2.1"
     postcss-value-parser "^4.1.0"
 
-axios@~0.23.0:
-  version "0.23.0"
-  resolved "https://registry.npmmirror.com/axios/download/axios-0.23.0.tgz?cache=0&sync_timestamp=1634053131158&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Faxios%2Fdownload%2Faxios-0.23.0.tgz#b0fa5d0948a8d1d75e3d5635238b6c4625b05149"
-  integrity sha1-sPpdCUio0ddePVY1I4tsRiWwUUk=
+axios@~0.24.0:
+  version "0.24.0"
+  resolved "https://registry.npmmirror.com/axios/download/axios-0.24.0.tgz#804e6fa1e4b9c5288501dd9dff56a7a0940d20d6"
+  integrity sha1-gE5voeS5xSiFAd2d/1anoJQNINY=
   dependencies:
     follow-redirects "^1.14.4"
 
@@ -1584,20 +1557,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.nlark.com/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vant@~3.1.5:
-  version "3.1.5"
-  resolved "https://registry.nlark.com/vant/download/vant-3.1.5.tgz#3e80b5b8a8431d0c2221129fea89c4cc21a6f2b2"
-  integrity sha1-PoC1uKhDHQwiIRKf6onEzCGm8rI=
-  dependencies:
-    "@vant/icons" "^1.7.0"
-    "@vant/lazyload" "^1.2.0"
-    "@vant/popperjs" "^1.1.0"
-    "@vant/use" "^1.2.2"
-
-vite@^2.6.10:
-  version "2.6.10"
-  resolved "https://registry.npmmirror.com/vite/download/vite-2.6.10.tgz#7a4f420c6e2c7d9062c7f9ce4578a817c72b3842"
-  integrity sha1-ek9CDG4sfZBix/nORXioF8crOEI=
+vite@^2.6.11:
+  version "2.6.11"
+  resolved "https://registry.npmmirror.com/vite/download/vite-2.6.11.tgz?cache=0&sync_timestamp=1635159410826&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fvite%2Fdownload%2Fvite-2.6.11.tgz#20d3d8f4b4fe38904a2e425356aab1cb23325e12"
+  integrity sha1-INPY9LT+OJBKLkJTVqqxyyMyXhI=
   dependencies:
     esbuild "^0.13.2"
     postcss "^8.3.8"
