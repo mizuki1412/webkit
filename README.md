@@ -9,7 +9,7 @@ Based on Vue3/Vite2/TailWindCss
 - BASE_URL:
 - VITE_APP_NAME
 - VITE_ROUTE_MODE: hash or history
-- VITE_ICON_FONT_URL: iconfont的地址
+- // VITE_ICON_FONT_URL: iconfont的地址
 - VITE_REQUEST_BASE_URL: axios的 base url
 
 # components

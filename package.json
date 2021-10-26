@@ -1,37 +1,35 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "name": "webkit1412",
   "author": "mizuki1412",
   "license": "MIT",
   "repository": "https://github.com/mizuki1412/webkit",
   "scripts": {
     "dev": "vite --mode dev",
-    "dev.pc": "yarn tauri dev",
     "build": "vite build --mode pro",
     "serve": "vite preview",
-    "update-dep": "yarn upgrade-interactive --latest",
-    "update-tauri": "tauri deps update"
+    "update-dep": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
-    "ant-design-vue": "~2.2.8",
-    "axios": "~0.22.0",
+    "axios": "~0.23.0",
     "echarts": "~5.2.1",
+    "element-plus": "^1.1.0-beta.24",
     "lodash": "~4.17.21",
     "nprogress": "^0.2.0",
     "qs": "~6.10.1",
-    "socket.io-client": "~4.2.0",
+    "socket.io-client": "~4.3.2",
+    "unplugin-vue-components": "^0.16.0",
     "vant": "~3.1.5",
     "vue": "~3.2.19",
     "vue-echarts": "~6.0.0",
     "vue-router": "~4.0.11"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^1.0.0-beta.10",
     "@vitejs/plugin-vue": "^1.9.3",
-    "@vue/compiler-sfc": "^3.2.19",
+    "@vue/compiler-sfc": "^3.2.20",
     "autoprefixer": "^10.3.7",
-    "postcss": "^8.3.9",
-    "tailwindcss": "^2.2.16",
-    "vite": "^2.6.3"
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17",
+    "vite": "^2.6.10"
   }
 }

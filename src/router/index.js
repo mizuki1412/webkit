@@ -7,7 +7,7 @@ export const routes = [
   },
   {
     path: '/',
-    name: 'main',
+    name: 'index',
     redirect:{name:"page1"},
     component: () => import('../views/main.vue'),
     meta:{
@@ -24,15 +24,14 @@ export const routes = [
           authDisable: true
         }
       },
+      // 无component的路由代表menu的分组信息
       {
-        path: '/page2',
+        path: '/_sub_page2',
         name: 'page2',
-        component: () => import('../views/page2/page2.vue'),
         meta:{
-          menuTitle: "子页面2",
+          menuTitle: "子页面组",
           icon: 'icon-home',
-          authDisable: true
-        },
+        }
       },
       {
         path: "/page2/p1",
@@ -49,7 +48,7 @@ export const routes = [
         name: 'page3',
         component: () => import('../views/page2/page2.vue'),
         meta:{
-          menuTitle: "子页面2",
+          menuTitle: "子页面3",
           icon: 'icon-home',
           authDisable: true
         },
@@ -59,7 +58,7 @@ export const routes = [
         name: 'page4',
         component: () => import('../views/page2/page2.vue'),
         meta:{
-          menuTitle: "子页面2",
+          menuTitle: "子页面4",
           icon: 'icon-home',
           authDisable: true
         },
@@ -69,7 +68,7 @@ export const routes = [
         name: 'page5',
         component: () => import('../views/page2/page2.vue'),
         meta:{
-          menuTitle: "子页面2",
+          menuTitle: "子页面5",
           icon: 'icon-home',
           authDisable: true
         },

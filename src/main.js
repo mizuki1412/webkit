@@ -8,17 +8,16 @@ configKitInit(import.meta.env)
 // plugins组件
 import {pluginEcharts} from "../lib/plugin/echarts";
 pluginEcharts(app)
-import {pluginAnt, pluginAntIconFont} from "../lib/plugin/ant";
-pluginAnt(app)
-pluginAntIconFont(app)
 // 全局注册lib组件
 import {ComponentName} from "../lib/components";
 import kitEmpty from '../lib/components/kit-empty.vue'
 import kitModal from '../lib/components/kit-modal.vue'
-// import kitTable from '../lib/components/kit-table.vue'
+import kitTip from '../lib/components/kit-tip.vue'
+import kitTable from '../lib/components/kit-table.vue'
 app.component(ComponentName.Empty, kitEmpty)
 app.component(ComponentName.Modal, kitModal)
-// app.component(ComponentName.Table, kitTable)
+app.component(ComponentName.Tip, kitTip)
+app.component(ComponentName.Table, kitTable)
 
 // router
 import {useRouter} from "../lib/router";

@@ -1,34 +1,19 @@
 <template>
-  <a-spin :spinning="loading">
-<!--    <a-spin :spinning="loading"/>-->
-    page1 {{loading}}
-    <kit-empty @click="modal.visible = true">
-      不存在
-    </kit-empty>
-    <a-avatar size="large">
-      <template #icon><UserOutlined /></template>
-    </a-avatar>
-    <div style="height: 880px">
-      <a-button @click="confirm2">here</a-button>
-    </div>
+  <div v-loading="loading">
+    <kit-tip>abc</kit-tip>
+    <kit-empty @click="modal.visible = true">test<span style="color: red">abc</span></kit-empty>
+    <kit-empty>test<span style="color: rebeccapurple">abc</span></kit-empty>
     <kit-modal :modal="modal" :confirm="confirm2">
       <template #title>abc</template>
-      <div>content</div>
+      tst
     </kit-modal>
-  </a-spin>
+  </div>
 </template>
 <script setup>
-  import {ref, onMounted, defineComponent} from 'vue'
-  import {UserOutlined} from "@ant-design/icons-vue";
-  import {confirm} from "../../../lib/service/confirm";
-  import {errorMessage} from "../../../lib/service/message";
+  import {ref, onMounted} from 'vue'
+  // import {errorMessage} from "../../../lib/service/message";
   import {sleep} from "../../../lib/utils/logic";
   import {useLoading} from "../../../lib/service/loading";
-  // const vDrag = {
-  //   mounted(el) {
-  //     console.log(el)
-  //   }
-  // }
 
   const loading = ref(false)
   const modal = ref({
@@ -37,12 +22,11 @@
 
   function confirm2(){
     // confirm()
-    errorMessage("阿里", {type:'modal'})
+    // errorMessage("阿里", {type:'modal'})
     console.log(13)
   }
 
   onMounted(useLoading(loading,async ()=>{
-    console.log('mounted page1')
-    await sleep(3000)
+    await sleep(2000)
   }))
 </script>

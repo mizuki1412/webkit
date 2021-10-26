@@ -1,10 +1,10 @@
 <template>
-  <a-modal
-      v-model:visible="modal.visible"
-      :closable="showClose"
-      :mask-closable="false"
-      ok-text="确定"
-      cancel-text="取消"
+  <el-dialog
+      v-model="modal.visible"
+      :close-on-click-modal="false"
+      :close-on-press-escape="showClose"
+      :show-close="showClose"
+      :before-close="cancel"
       :width="width">
     <template #title>
       <div class="flex justify-center items-center">
@@ -14,12 +14,12 @@
     <slot/>
     <template #footer v-if="!noFooter">
       <div class="flex justify-end gap-4">
-        <a-button type="default" plain @click="cancel">取消</a-button>
-        <a-button type="primary" @click="ok">确定</a-button>
+        <el-button type="default" plain @click="cancel">取消</el-button>
+        <el-button type="primary" @click="ok">确定</el-button>
       </div>
       <KitErrChannel class="mt-2" :id="id" />
     </template>
-  </a-modal>
+  </el-dialog>
 </template>
 <script setup>
 import {submitErrChanel} from "../store/errorMsgChannel";

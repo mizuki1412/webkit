@@ -1,16 +1,10 @@
 <template>
   <div>
-    <a-spin />
     page3 {{loading}}
   </div>
 </template>
 <script setup>
-  import {ref, onMounted, defineComponent} from 'vue'
-  import {UserOutlined} from "@ant-design/icons-vue";
-
-  defineComponent({
-    UserOutlined
-  })
+  import {ref, onMounted} from 'vue'
 
   const loading = ref(false)
 

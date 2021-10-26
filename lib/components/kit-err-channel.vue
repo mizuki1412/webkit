@@ -1,10 +1,10 @@
 <template>
   <div v-if="storeErrMsg.submitId===id && storeErrMsg.msg && storeErrMsg.msg!==''">
-    <a-alert
-          :message="storeErrMsg.msg"
+    <el-alert
+          :title="storeErrMsg.msg"
           type="error"
           show-icon>
-    </a-alert>
+    </el-alert>
   </div>
 </template>
 <script setup>
