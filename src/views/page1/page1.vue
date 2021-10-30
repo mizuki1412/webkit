@@ -12,9 +12,8 @@
 <script setup>
   import {ref, onMounted} from 'vue'
   // import {errorMessage} from "../../../lib/service/message";
-  import {sleep} from "../../../lib/utils/logic";
-  import {useLoading} from "../../../lib/service/loading";
-  import {chartConfig} from "../../../lib/utils/echarts-helper";
+  import {sleep, chartConfig} from "../../../lib/utils";
+  import {useLoading} from "../../../lib/service";
 
   const loading = ref(false)
   const option1 = ref()

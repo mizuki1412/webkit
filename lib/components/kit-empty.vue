@@ -11,7 +11,6 @@
   </div>
 </template>
 <script setup>
-
 // 可以传入图片地址
 defineProps({
   img: {

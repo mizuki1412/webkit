@@ -22,7 +22,7 @@
   </el-dialog>
 </template>
 <script setup>
-import {submitErrChanel} from "../store/errorMsgChannel";
+import {submitErrChanel} from "../store";
 import KitErrChannel from './kit-err-channel.vue'
 
 // const vDrag = {

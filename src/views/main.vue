@@ -50,7 +50,7 @@
 import { ref,onMounted,computed } from 'vue';
 import {storePageMenu} from "../../lib/router";
 import {useRouter} from "vue-router";
-import {storeCurrentRoute} from "../../lib/store/currentRoute";
+import {storeCurrentRoute} from "../../lib/store";
 const router = useRouter()
 // 顶部高
 const headerHeight = ref('60px')

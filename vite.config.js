@@ -10,7 +10,7 @@ export default defineConfig({
   },
   plugins: [
     vue(),
-    // element-plus自动按需导入
+    // 自动按需导入：原理是直接在源文件中加入了import语句
     Components({
       resolvers: [ElementPlusResolver()],
     }),

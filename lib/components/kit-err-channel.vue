@@ -8,7 +8,7 @@
   </div>
 </template>
 <script setup>
-import {storeErrMsg} from "../store/errorMsgChannel";
+import {storeErrMsg} from "../store";
 
 defineProps({
   id: {
