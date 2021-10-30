@@ -5,7 +5,7 @@ import {configKitInit} from "../lib/store";
 import {useRouter} from "../lib/router";
 import {routes} from "./router";
 import {routeBaseAfter, routeBaseBefore} from "../lib/router/intercepter";
-import {KitEmpty, KitIcon, KitModal, KitTable, KitTip} from "../lib/components";
+import {KitEmpty, KitIcon, KitModal, KitTable} from "../lib/components";
 import {VueEcharts} from "../lib/plugin";
 
 const app = createApp(App)
@@ -14,7 +14,6 @@ configKitInit(import.meta.env)
 app.use(VueEcharts)
 app.use(KitEmpty)
 app.use(KitModal)
-app.use(KitTip)
 app.use(KitTable)
 app.use(KitIcon)
 import ids from 'virtual:svg-icons-names';

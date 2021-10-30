@@ -1,7 +1,6 @@
 <template>
   <div v-loading="loading">
-    <kit-tip>abc</kit-tip>
-    <kit-icon name="fee" color="green" class="w-12 h-12" />
+    <kit-icon name="fee" color="green" class="w-4 h-4" />
     <kit-empty @click="modal.visible = true">test<span style="color: red">abc</span></kit-empty>
     <v-chart style="width: 300px;height: 200px" :option="option1"></v-chart>
     <kit-modal :modal="modal" :confirm="confirm2">

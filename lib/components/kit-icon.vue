@@ -1,5 +1,5 @@
 <template>
-  <svg >
+  <svg aria-hidden="true">
     <use v-if="symbolId" :xlink:href="symbolId" :fill="color" />
   </svg>
 </template>
