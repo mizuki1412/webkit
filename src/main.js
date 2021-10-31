@@ -16,8 +16,7 @@ app.use(KitEmpty)
 app.use(KitModal)
 app.use(KitTable)
 app.use(KitIcon)
-import ids from 'virtual:svg-icons-names';
-console.log(ids)
+
 // router
 const router = useRouter(app, routes)
 router.beforeEach((to,from,next)=>{

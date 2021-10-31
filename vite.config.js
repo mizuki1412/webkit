@@ -12,7 +12,7 @@ export default defineConfig({
   },
   plugins: [
     vue(),
-    // svg 雪碧图生成
+    // svg 雪碧图生成，并用svgo压缩
     viteSvgIcons({
       iconDirs: [path.resolve(process.cwd(), 'src/assets/icons')],
     }),
