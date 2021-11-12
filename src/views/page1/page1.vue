@@ -1,6 +1,6 @@
 <template>
   <div v-loading="loading">
-    <kit-icon name="fee" color="green" class="w-4 h-4" />
+    <kit-icon name="fee" class="w-4 h-4 text-red-600" />
     <kit-empty @click="modal.visible = true">test<span style="color: red">abc</span></kit-empty>
     <v-chart style="width: 300px;height: 200px" :option="option1"></v-chart>
     <kit-modal :modal="modal" :confirm="confirm2">
@@ -11,7 +11,6 @@
 </template>
 <script setup>
   import {ref, onMounted} from 'vue'
-  // import {errorMessage} from "../../../lib/service/message";
   import {sleep, chartConfig} from "../../../lib/utils";
   import {useLoading} from "../../../lib/service";
 

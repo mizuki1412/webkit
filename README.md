@@ -2,23 +2,26 @@
 
 The Next of web-toolkit.
 
-Based on Vue3/Vite2/TailWindCss
+Based on Vue3/Vite2/TailWindCSS
 
-## 环境变量
+## 支持的环境变量
 
 - BASE_URL:
 - VITE_APP_NAME
 - VITE_ROUTE_MODE: hash or history
-- // VITE_ICON_FONT_URL: iconfont的地址
-- VITE_REQUEST_BASE_URL: axios的 base url
+- VITE_REQUEST_BASE_URL: axios 的 base url
+
+# request
+
+# router
 
 # components
 
-
 # service
 
-- confirm：确认框组件
-- message：消息提示组件，包括message和modal形式。
+# store
+
+# utils
 
 # TODO
 
