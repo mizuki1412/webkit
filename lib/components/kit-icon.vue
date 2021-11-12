@@ -1,6 +1,6 @@
 <template>
   <svg aria-hidden="true">
-    <use v-if="symbolId" :xlink:href="symbolId" :fill="color" />
+    <use v-if="symbolId" :xlink:href="symbolId" fill="currentColor" />
   </svg>
 </template>
 <script setup>
@@ -8,10 +8,6 @@
 import {computed} from "vue";
 
 const props = defineProps({
-  color: {
-    type: String,
-    default: 'black',
-  },
   name: {
     type: String,
     default: null,

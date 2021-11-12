@@ -20,8 +20,10 @@
               v-if="menuItemFilter(item.children).length>0"
               :index="item.name">
             <template #title>
-              <i :class="'iconfont '+item.icon"/>
-              <span class="ml-2">{{item.menuTitle }}</span>
+              <div class="flex items-center">
+                <kit-icon class="w-4 h-4" :name="item.menuIcon"></kit-icon>
+                <span class="ml-2">{{item.menuTitle }}</span>
+              </div>
             </template>
             <el-menu-item
                 v-for="child of menuItemFilter(item.children)"
@@ -32,8 +34,10 @@
           <el-menu-item
               v-else-if="item.name && (!item.authFunc || item.authFunc())"
               :index="item.name">
-            <i :class="'iconfont ' + item.icon"/>
-            <span class="ml-2">{{ item.menuTitle }}</span>
+            <div class="flex items-center">
+              <kit-icon color="white" class="w-4 h-4" :name="item.menuIcon"></kit-icon>
+              <span class="ml-2">{{ item.menuTitle }}</span>
+            </div>
           </el-menu-item>
         </template>
       </el-menu>

@@ -20,7 +20,7 @@ export const routes = [
         component: () => import('../views/page1/page1.vue'),
         meta:{
           menuTitle: "子页面1",
-          icon: 'icon-home',
+          menuIcon: 'fee',
           authDisable: true
         }
       },
@@ -30,7 +30,7 @@ export const routes = [
         name: 'page2',
         meta:{
           menuTitle: "子页面组",
-          icon: 'icon-home',
+          menuIcon: 'fee',
         }
       },
       {
@@ -49,7 +49,7 @@ export const routes = [
         component: () => import('../views/page2/page2.vue'),
         meta:{
           menuTitle: "子页面3",
-          icon: 'icon-home',
+          menuIcon: 'fee',
           authDisable: true
         },
       },
@@ -59,7 +59,7 @@ export const routes = [
         component: () => import('../views/page2/page2.vue'),
         meta:{
           menuTitle: "子页面4",
-          icon: 'icon-home',
+          menuIcon: 'fee',
           authDisable: true
         },
       },
@@ -69,7 +69,7 @@ export const routes = [
         component: () => import('../views/page2/page2.vue'),
         meta:{
           menuTitle: "子页面5",
-          icon: 'icon-home',
+          menuIcon: 'fee',
           authDisable: true
         },
       },
