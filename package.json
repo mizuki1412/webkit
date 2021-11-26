@@ -28,8 +28,6 @@
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.1",
     "tailwindcss": "^2.2.19",
-    "unplugin-vue-components": "^0.17.2",
-    "vite": "^2.6.14",
-    "vite-plugin-svg-icons": "^1.0.5"
+    "vite": "^2.6.14"
   }
 }
